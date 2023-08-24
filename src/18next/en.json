@@ -1,0 +1,20 @@
+{
+    "webDeveloper": "WEB DEVELOPER",
+    "jpgDev": "Hello, I'm",
+    "descripcion": "Responsible for creating and maintaining websites with programming and design skills, as well as a deep understanding of languages and technologies related to web development.",
+    "start": "START",
+    "aboutMe": {
+        "about": "About Me",
+        "heading": "Who I Am",
+        "description0": "As a web developer, I specialize in designing and developing attractive and functional user interfaces. With expertise in React, JavaScript, and many other technologies, I focus on creating responsive and optimized websites to deliver an exceptional user experience.",
+        "toggleButtonKnowMore": "Learn More",
+        "description1": "I am a self-taught web designer and developer with 3 years of experience. Over these 3 years, I have taken on and learned many platforms and technologies that allow me to stay alert and ahead of my competition. I strive to create customized websites for each client while providing them with the highest quality product on the market.",
+        "description2": "You will hire someone who will provide you with an individualized website that meets your requirements.",
+        "description3": "Extensive technical knowledge: As a web developer, I have a strong understanding of programming languages such as HTML, CSS, Bootstrap, Tailwind, JavaScript, jQuery, React, Node.js, GitHub, MongoDB. I am also familiar with tools and technologies related to web development.",
+        "toggleButtonShowMore": "Show More",
+        "toggleButtonShowLess": "Show Less",
+        "additionalDescription1": "I am capable of tackling complex issues with creative and innovative solutions. My ability to think outside the box allows me to offer unique approaches to website design and development.",
+        "additionalDescription2": "I am meticulous in my work and pay attention to details. This is essential to ensure that websites are accurate, function smoothly, and are visually appealing.",
+        "skillsHeading": "Skills"
+    }
+}

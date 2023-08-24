@@ -1,0 +1,94 @@
+{
+    "webDeveloper": "DESARROLLADOR WEB",
+    "jpgDev": "Hola, soy",
+    "descripcion": "Encargado de crear y mantener sitios web con habilidades en programación y diseño, así como un conocimiento profundo de lenguajes y tecnologías relacionadas con el desarrollo web",
+    "start": "INICIAR",
+    "aboutMe": {
+        "about": "SOBRE MI",
+        "heading": "QUIEN",
+        "Im": " SOY",
+        "description0": "Como desarrollador web, me especializo en el diseño y desarrollo de interfaces de usuario atractivas y funcionales. Con experiencia en HTML, CSS, JavaScript, Bootstrap, Tailwind, Node.js, React.js, GitHub, MongoDB, jQuery y muchas otras tecnologías, me enfoco en crear sitios web responsivos y optimizados para ofrecer una experiencia de usuario excepcional.",
+        "toggleButtonKnowMore": "Saber más",
+        "description1": "Soy un diseñador y desarrollador de sitios web autodidacta con 3 años de experiencia. Durante esos 3 años, tomé y aprendí muchas plataformas y tecnologías que me permiten mantenerme alerta y por delante de mi competencia. Me esfuerzo por crear sitios web personalizados para cada cliente mientras les brindo el producto de la más alta calidad en el mercado.",
+        "description2": "Contratará a una persona que le brindará un sitio web individualizado que cumpla con sus requisitos.",
+        "description3": "Amplios conocimientos técnicos: Como desarrollador web, tengo un sólido conocimiento de lenguajes de programación como HTML, CSS, bootstrap, tailwind, JavaScript, jQuery, React, Node.js, GitHub, MongoDB. También estoy familiarizado con herramientas y tecnologías relacionadas con el desarrollo web.",
+        "toggleButtonShowMore": "ver más",
+        "toggleButtonShowLess": "ver menos",
+        "additionalDescription1": "Soy capaz de abordar problemas complejos con soluciones creativas e innovadoras. Mi capacidad para pensar fuera de lo convencional me permite ofrecer enfoques únicos para el diseño y desarrollo de sitios web.",
+        "additionalDescription2": "Soy meticuloso en el trabajo y presto atención a los detalles. Esto es esencial para garantizar que los sitios web sean precisos, funcionen sin problemas y sean visualmente atractivos.",
+        "skillsHeading": "Habilidades"
+    },
+
+
+    "services": {
+        "servicios": "MIS SERVICIOS",
+        "heading": "QUE",
+        "do": " HAGO",
+        "description0": "Como desarrollador web, me especializo en el diseño y desarrollo de interfaces de usuario atractivas y funcionales. Con experiencia en React, javascript y muchas otras tecnologias, me enfoco en crear sitios web responsivos y optimizados para ofrecer una experiencia de usuario excepcional.",
+        "toggleButtonKnowMore": "Saber más",
+        "description1": "Soy un diseñador y desarrollador de sitios web autodidacta con 3 años de experiencia. Durante esos 3 años, tomé y aprendí muchas plataformas y tecnologías que me permiten mantenerme alerta y por delante de mi competencia. Me esfuerzo por crear sitios web personalizados para cada cliente mientras les brindo el producto de la más alta calidad en el mercado.",
+        "description2": "Contratará a una persona que le brindará un sitio web individualizado que cumpla con sus requisitos.",
+        "description3": "Amplios conocimientos técnicos: Como desarrollador web, tengo un sólido conocimiento de lenguajes de programación como HTML, CSS, bootstrap, tailwind, JavaScript, jQuery, React, Node.js, GitHub, MongoDB. También estoy familiarizado con herramientas y tecnologías relacionadas con el desarrollo web.",
+        "toggleButtonShowMore": "ver más",
+        "toggleButtonShowLess": "ver menos",
+        "additionalDescription1": "Soy capaz de abordar problemas complejos con soluciones creativas e innovadoras. Mi capacidad para pensar fuera de lo convencional me permite ofrecer enfoques únicos para el diseño y desarrollo de sitios web.",
+        "additionalDescription2": "Soy meticuloso en el trabajo y presto atención a los detalles. Esto es esencial para garantizar que los sitios web sean precisos, funcionen sin problemas y sean visualmente atractivos.",
+        "skillsHeading": "Habilidades"
+    },
+
+
+    "servicesList": [{
+            "title": "Diseño y Desarrollo Web",
+            "description": "Creamos sitios web personalizados y funcionales para una variedad de clientes, incluyendo empresas, emprendedores, instituciones educativas y organizaciones.",
+            "buttonText": "Leer Más"
+        },
+        {
+            "title": "Diseño UI/UX",
+            "description": "Nos especializamos en el diseño y desarrollo de sitios web potentes y modernos para una amplia gama de negocios. Nuestra atención se centra en la creación de experiencias de usuario excepcionales a través de un diseño de interfaz elegante y funcional.",
+            "points": ["Diseño de Escritorio", "Diseño de Teléfono", "Diseño de Tablet"]
+        },
+        {
+            "title": "Diseño Responsivo",
+            "description": "Nos aseguramos de que los sitios web que creamos sean completamente receptivos, lo que significa que se verán y funcionarán de manera óptima en una variedad de dispositivos, desde computadoras de escritorio hasta tabletas y teléfonos móviles.",
+            "points": ["Diseño de Escritorio", "Diseño de Teléfono", "Diseño de Tablet"]
+        },
+        {
+            "title": "Mantenimiento y Actualización",
+            "description": "Ofrecemos servicios completos de mantenimiento y actualización periódica para garantizar que los sitios web que creamos estén siempre actualizados y funcionando correctamente.",
+            "points": ["Diseño de Escritorio", "Diseño de Teléfono", "Diseño de Tablet"]
+        },
+        {
+            "title": "Consultoría y Asesoramiento",
+            "description": "Nuestro equipo ofrece asesoramiento técnico y consultoría estratégica para mejorar la presencia en línea de nuestros clientes. Compartimos nuestras mejores prácticas, conocimientos sobre tecnologías emergentes y estrategias efectivas para optimizar la experiencia en línea.",
+            "points": ["Diseño de Escritorio", "Diseño de Teléfono", "Diseño de Tablet"]
+        }
+    ],
+
+    "proyects": {
+        "proyect": "PROYECTOS",
+        "heading": "EXPERIENCIA",
+        "description0": "Como desarrollador web, me especializo en el diseño y desarrollo de interfaces de usuario atractivas y funcionales. Con experiencia en React, javascript y muchas otras tecnologias, me enfoco en crear sitios web responsivos y optimizados para ofrecer una experiencia de usuario excepcional.",
+        "toggleButtonKnowMore": "Saber más",
+        "description1": "Soy un diseñador y desarrollador de sitios web autodidacta con 3 años de experiencia. Durante esos 3 años, tomé y aprendí muchas plataformas y tecnologías que me permiten mantenerme alerta y por delante de mi competencia. Me esfuerzo por crear sitios web personalizados para cada cliente mientras les brindo el producto de la más alta calidad en el mercado.",
+        "description2": "Contratará a una persona que le brindará un sitio web individualizado que cumpla con sus requisitos.",
+        "description3": "Amplios conocimientos técnicos: Como desarrollador web, tengo un sólido conocimiento de lenguajes de programación como HTML, CSS, bootstrap, tailwind, JavaScript, jQuery, React, Node.js, GitHub, MongoDB. También estoy familiarizado con herramientas y tecnologías relacionadas con el desarrollo web.",
+        "toggleButtonShowMore": "ver más",
+        "toggleButtonShowLess": "ver menos",
+        "additionalDescription1": "Soy capaz de abordar problemas complejos con soluciones creativas e innovadoras. Mi capacidad para pensar fuera de lo convencional me permite ofrecer enfoques únicos para el diseño y desarrollo de sitios web.",
+        "additionalDescription2": "Soy meticuloso en el trabajo y presto atención a los detalles. Esto es esencial para garantizar que los sitios web sean precisos, funcionen sin problemas y sean visualmente atractivos.",
+        "skillsHeading": "Habilidades"
+    },
+
+
+    "contactDiv": {
+        "contactMe": "CONTACTAME",
+        "contactInfo": "Contacto",
+        "downloadCV": "Descargar CV",
+        "name": "Nombre",
+        "email": "Email",
+        "phone": "Teléfono",
+        "message": "Mensaje",
+        "submit": "Enviar"
+
+    }
+}
