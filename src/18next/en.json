@@ -1,20 +1,160 @@
 {
+    "home": "Home",
+    "servicesNv": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
     "webDeveloper": "WEB DEVELOPER",
     "jpgDev": "Hello, I'm",
     "descripcion": "Responsible for creating and maintaining websites with programming and design skills, as well as a deep understanding of languages and technologies related to web development.",
     "start": "START",
+    "toggleButtonShowMore": "More",
+    "toggleButtonShowLess": "Less",
     "aboutMe": {
-        "about": "About Me",
-        "heading": "Who I Am",
-        "description0": "As a web developer, I specialize in designing and developing attractive and functional user interfaces. With expertise in React, JavaScript, and many other technologies, I focus on creating responsive and optimized websites to deliver an exceptional user experience.",
-        "toggleButtonKnowMore": "Learn More",
-        "description1": "I am a self-taught web designer and developer with 3 years of experience. Over these 3 years, I have taken on and learned many platforms and technologies that allow me to stay alert and ahead of my competition. I strive to create customized websites for each client while providing them with the highest quality product on the market.",
-        "description2": "You will hire someone who will provide you with an individualized website that meets your requirements.",
-        "description3": "Extensive technical knowledge: As a web developer, I have a strong understanding of programming languages such as HTML, CSS, Bootstrap, Tailwind, JavaScript, jQuery, React, Node.js, GitHub, MongoDB. I am also familiar with tools and technologies related to web development.",
+        "about": "ABOUT ME",
+        "heading": "WHO",
+        "Im": " I AM",
+        "description0": "As a web developer, I specialize in designing and developing attractive and functional user interfaces. With experience in HTML, CSS, JavaScript, Bootstrap, Tailwind, Node.js, React.js, GitHub, MongoDB, jQuery, and many other technologies, I focus on creating responsive and optimized websites to provide an exceptional user experience.",
+        "toggleButtonKnowMore": "Know More",
+        "description1": "I am a self-taught web designer and developer with 3 years of experience. Over those 3 years, I took on and learned many platforms and technologies that allow me to stay alert and ahead of my competition. I strive to create custom websites for each client while providing them with the highest quality product on the market.",
+        "description2": "You'll be hiring someone who will provide you with an individualized website that meets your requirements.",
+        "description3": "Extensive technical knowledge: As a web developer, I have a solid understanding of programming languages like HTML, CSS, Bootstrap, Tailwind, JavaScript, jQuery, React, Node.js, GitHub, MongoDB. I'm also familiar with tools and technologies related to web development.",
         "toggleButtonShowMore": "Show More",
         "toggleButtonShowLess": "Show Less",
-        "additionalDescription1": "I am capable of tackling complex issues with creative and innovative solutions. My ability to think outside the box allows me to offer unique approaches to website design and development.",
-        "additionalDescription2": "I am meticulous in my work and pay attention to details. This is essential to ensure that websites are accurate, function smoothly, and are visually appealing.",
+        "additionalDescription1": "I'm capable of tackling complex issues with creative and innovative solutions. My ability to think outside the conventional allows me to offer unique approaches to web design and development.",
+        "additionalDescription2": "I'm meticulous in my work and pay attention to details. This is essential to ensure websites are accurate, run smoothly, and are visually appealing.",
         "skillsHeading": "Skills"
+    },
+    "services": {
+        "servicios": "MY SERVICES",
+        "heading": "WHAT",
+        "do": " I DO",
+        "description0": "As a web developer, I specialize in designing and developing attractive and functional user interfaces. With experience in React, JavaScript, and many other technologies, I focus on creating responsive and optimized websites to provide an exceptional user experience.",
+        "toggleButtonKnowMore": "Know More",
+        "description1": "I am a self-taught web designer and developer with 3 years of experience. Over those 3 years, I took on and learned many platforms and technologies that allow me to stay alert and ahead of my competition. I strive to create custom websites for each client while providing them with the highest quality product on the market.",
+        "description2": "You'll be hiring someone who will provide you with an individualized website that meets your requirements.",
+        "description3": "Extensive technical knowledge: As a web developer, I have a solid understanding of programming languages like HTML, CSS, Bootstrap, Tailwind, JavaScript, jQuery, React, Node.js, GitHub, MongoDB. I'm also familiar with tools and technologies related to web development.",
+        "toggleButtonShowMore": "Show More",
+        "toggleButtonShowLess": "Show Less",
+        "additionalDescription1": "I'm capable of tackling complex issues with creative and innovative solutions. My ability to think outside the conventional allows me to offer unique approaches to web design and development.",
+        "additionalDescription2": "I'm meticulous in my work and pay attention to details. This is essential to ensure websites are accurate, run smoothly, and are visually appealing.",
+        "skillsHeading": "Skills"
+    },
+    "servicesList": [{
+            "title": "Web Design and Development",
+            "description": "We create custom and functional websites for a variety of clients, including businesses, entrepreneurs, educational institutions, and organizations.",
+            "buttonText": "Read More"
+        },
+        {
+            "title": "UI/UX Design",
+            "description": "We specialize in designing and developing powerful and modern websites for a wide range of businesses. Our focus is on creating exceptional user experiences through elegant and functional interface design.",
+            "points": ["Desktop Design", "Phone Design", "Tablet Design"]
+        },
+        {
+            "title": "Responsive Design",
+            "description": "We ensure that the websites we create are fully responsive, meaning they will look and function optimally on a variety of devices, from desktop computers to tablets and mobile phones.",
+            "points": ["Desktop Design", "Phone Design", "Tablet Design"]
+        },
+        {
+            "title": "Maintenance and Updates",
+            "description": "We offer comprehensive maintenance and regular update services to ensure the websites we create are always up-to-date and functioning correctly.",
+            "points": ["Desktop Design", "Phone Design", "Tablet Design"]
+        },
+        {
+            "title": "Consulting and Advice",
+            "description": "Our team offers technical advice and strategic consulting to enhance our clients' online presence. We share best practices, insights into emerging technologies, and effective strategies to optimize the online experience.",
+            "points": ["Desktop Design", "Phone Design", "Tablet Design"]
+        }
+    ],
+    "proyects": {
+        "proyect": "PROJECTS",
+        "heading": "EXPERIENCE",
+        "description0": "As a web developer, I specialize in designing and developing attractive and functional user interfaces. With experience in React, JavaScript, and many other technologies, I focus on creating responsive and optimized websites to provide an exceptional user experience.",
+        "toggleButtonKnowMore": "Know More",
+        "description1": "I am a self-taught web designer and developer with 3 years of experience. Over those 3 years, I took on and learned many platforms and technologies that allow me to stay alert and ahead of my competition. I strive to create custom websites for each client while providing them with the highest quality product on the market.",
+        "description2": "You'll be hiring someone who will provide you with an individualized website that meets your requirements.",
+        "description3": "Extensive technical knowledge: As a web developer, I have a solid understanding of programming languages like HTML, CSS, Bootstrap, Tailwind, JavaScript, jQuery, React, Node.js, GitHub, MongoDB. I'm also familiar with tools and technologies related to web development.",
+        "toggleButtonShowMore": "Show More",
+        "toggleButtonShowLess": "Show Less",
+        "additionalDescription1": "I'm capable of tackling complex issues with creative and innovative solutions. My ability to think outside the conventional allows me to offer unique approaches to web design and development.",
+        "additionalDescription2": "I'm meticulous in my work and pay attention to details. This is essential to ensure websites are accurate, run smoothly, and are visually appealing.",
+        "skillsHeading": "Skills"
+    },
+
+
+    "proyect": [{
+            "proyectName": "glamour",
+            "description": "It is an elegant and modern website that combines the beauty of the makeup world with the relaxation and rejuvenation of spa treatments. The website was designed and developed to provide visitors with a unique and attractive experience that reflects the essence of the services offered by the spa and makeup studio.",
+            "categoria": "beauty",
+            "imagen": "./assets/proyects/glamour.jpg",
+            "imagen2": "./assets/proyects/glamour2.jpg",
+            "link": "https://jhonjpg.github.io/glamour/",
+            "bottom": "description"
+        },
+        {
+            "proyectName": "Rosa Gutierrez Asoc",
+            "description": "It is a professional and modern website designed for a law firm committed to providing expert legal advice and solutions to its clients. The website reflects the seriousness and reliability of the firm while offering visitors an accessible platform to learn about available legal services and get in touch with the lawyers.",
+            "categoria": "laws",
+            "imagen": "./assets/proyects/law.jpg",
+            "imagen2": "./assets/proyects/law2.jpg",
+            "link": "https://jhonjpg.github.io/abogada/",
+            "bottom": "description"
+        },
+        {
+            "proyectName": "The Kath Cafeteria",
+            "description": "It is a vibrant and appetizing website designed for a fast-food business that offers a variety of tasty options to satisfy fast-food cravings. The website captures the essence of modern fast food by providing visitors with an attractive and convenient online experience to explore the menu, place orders, and learn more about the business.",
+            "categoria": "foods",
+            "imagen": "./assets/proyects/kathPage.jpg",
+            "imagen2": "./assets/proyects/kathPage2.jpg",
+            "link": "https://jhonjpg.github.io/theKathCafeteria/",
+            "bottom": "description"
+        },
+        {
+            "proyectName": "Lift Gym",
+            "description": "An online destination designed for a gym committed to health and wellness. The website provides fitness enthusiasts and those seeking an active lifestyle with the opportunity to explore facilities, learn about training programs, and discover a space where they can focus on achieving their fitness goals.",
+            "categoria": "media",
+            "imagen": "./assets/proyects/webgym.jpg",
+            "imagen2": "./assets/proyects/gym2.jpg",
+            "link": "https://jhonjpg.github.io/lyftgym/",
+            "bottom": "description"
+        },
+        {
+            "proyectName": "Dra. Melina",
+            "description": "The website of Dr. Melina, a highly experienced aesthetic surgeon committed to enhancing the natural beauty of her patients. Our site is an online space where individuals can explore a wide range of aesthetic procedures designed to boost confidence and improve self-esteem.",
+            "categoria": "medical",
+            "imagen": "./assets/proyects/dramelina.jpg",
+            "imagen2": "./assets/proyects/dramelina2.jpg",
+            "link": "https://jhonjpg.github.io/DraMelina/",
+            "bottom": "description"
+        },
+        {
+            "proyectName": "dreamHome",
+            "description": "The dreamHome website of Mrs. Marelin Zick, a real estate professional and expert in managing documents related to property buying and selling. This site is your gateway to a world of possibilities for finding your dream home and ensuring a seamless transaction.",
+            "categoria": "laws",
+            "imagen": "./assets/proyects/dreamHome.jpg",
+            "imagen2": "./assets/proyects/dreamHome2.jpg",
+            "link": "https://jhonjpg.github.io/dreamHome/",
+            "bottom": "description"
+        },
+        {
+            "proyectName": "barberShop",
+            "description": "The website of the leading barbershop offering top-notch haircuts and personal grooming services for modern men. Here, craftsmanship meets elegance in an environment that celebrates masculinity and individual style.",
+            "categoria": "beauty",
+            "imagen": "./assets/proyects/barber.jpg",
+            "imagen2": "./assets/proyects/barber2.jpg",
+            "link": "https://jhonjpg.github.io/BarberShop/",
+            "bottom": "description"
+        }
+    ],
+
+    "contactDiv": {
+        "contactMe": "CONTACT ME",
+        "contactInfo": "contact",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "message": "Message",
+        "submit": "Send"
     }
+
 }

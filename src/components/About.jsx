@@ -89,7 +89,9 @@ const About = () => {
 <p className={hideClass}  >{t('aboutMe.additionalDescription1')}</p> 
 <p className={hideClass}  >{t('aboutMe.additionalDescription2')}</p>
 
-<button className="w-36 rounded-lg bg-blue-400  p-2" onClick={seeMore}>{articulo ? "Menos": "leer Mas"}</button>
+<button className="w-36 rounded-lg bg-blue-400 p-2" onClick={seeMore}>
+      {articulo ? t('toggleButtonShowLess') : t('toggleButtonShowMore')}
+    </button>
 
 
 </div>

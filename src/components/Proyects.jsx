@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Proyect from '../helpers/proyect.json';
 import { useTranslation } from 'react-i18next';
 import { InView } from 'react-intersection-observer';
 
@@ -11,6 +10,9 @@ const Proyects = () => {
 
     const [activeComponent, setActiveComponent] = useState("all");
     const [articulo, setarticulo] = useState(false)
+
+    const Proyect = t('proyect', { returnObjects: true });
+
 
     const [expandedProject, setExpandedProject] = useState(null);
 
@@ -80,7 +82,7 @@ const Proyects = () => {
     <div className="flex w-full	 flex-wrap gap-4 items-center justify-around ">
 
         
-    {Proyect.proyectos.map((proyecto, index) => {
+    {Proyect.map((proyecto, index) => {
 
 const isExpanded = expandedProject === index;
 
@@ -105,9 +107,9 @@ const containerClassName = isExpanded ? "relative w-full transition-all 	text-bl
                 </div>
               </a>
               {isExpanded && <p className={visible}>{proyecto.description}</p>}
-            <button onClick={() => seeMore(index)} className="w-32 p-2 bg-blue-500 mt-20">
-              {isExpanded ? 'Ocultar' : 'Ver más'}
-            </button>             
+              <button onClick={() => seeMore(index)} className="w-32 p-2 bg-blue-500 mt-20">
+      {isExpanded ? t('toggleButtonShowLess') : t('toggleButtonShowMore')}
+    </button>            
             </div>
           );
         } else {

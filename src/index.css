@@ -23,7 +23,7 @@ hr {
     /* Alinea verticalmente */
     /* transition: right 0.5s ease; */
     /* Transición de movimiento */
-    background-image: url("../public/img/meNew.jpg");
+    background-image: url("../public/img/meNew.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -468,28 +468,5 @@ input {
     to {
         opacity: 1;
         transform: translateY(0px);
-    }
-}
-
-@media (min-width: 768px) {
-    .show {
-        visibility: visible;
-        animation: slow 0.6s linear;
-        height: 130px !important;
-        color: white;
-        font-size: 20px;
-        width: 100%;
-        padding: 10px;
-    }
-    @keyframes slow {
-        from {
-            transform: translateY(-200px);
-            opacity: 0;
-            height: 0px;
-        }
-        to {
-            opacity: 1;
-            height: 130px !important;
-        }
     }
 }

@@ -1,8 +1,15 @@
 {
+    "home": "Inicio",
+    "servicesNv": "Servicios",
+    "portfolio": "Portafolio",
+    "about": "Sobre mi",
+    "contact": "Contacto",
     "webDeveloper": "DESARROLLADOR WEB",
     "jpgDev": "Hola, soy",
     "descripcion": "Encargado de crear y mantener sitios web con habilidades en programación y diseño, así como un conocimiento profundo de lenguajes y tecnologías relacionadas con el desarrollo web",
     "start": "INICIAR",
+    "toggleButtonShowMore": "Mas",
+    "toggleButtonShowLess": "Menos",
     "aboutMe": {
         "about": "SOBRE MI",
         "heading": "QUIEN",
@@ -78,6 +85,86 @@
         "additionalDescription2": "Soy meticuloso en el trabajo y presto atención a los detalles. Esto es esencial para garantizar que los sitios web sean precisos, funcionen sin problemas y sean visualmente atractivos.",
         "skillsHeading": "Habilidades"
     },
+
+
+    "proyect": [{
+
+            "proyectName": "glamour",
+            "description": "Es un sitio web elegante y moderno que combina la belleza del mundo del maquillaje con la relajación y rejuvenecimiento de los tratamientos de spa. El sitio web fue diseñado y desarrollado para proporcionar a los visitantes una experiencia única y atractiva que refleje la esencia de los servicios ofrecidos por el spa y estudio de maquillaje. ",
+            "categoria": "beauty",
+            "imagen": "./assets/proyects/glamour.jpg",
+            "imagen2": "./assets/proyects/glamour2.jpg",
+            "link": "https://jhonjpg.github.io/glamour/",
+            "bottom": "descripcion"
+
+        },
+        {
+            "proyectName": "Rosa Gutierrez Asoc",
+            "description": " Es un sitio web profesional y moderno diseñado para un bufete de abogados comprometido en brindar asesoría legal experta y soluciones legales a sus clientes. El sitio web refleja la seriedad y la confiabilidad del despacho, al tiempo que ofrece a los visitantes una plataforma accesible para conocer los servicios legales disponibles y establecer contacto con los abogados. ",
+            "categoria": "laws",
+            "imagen": "./assets/proyects/law.jpg",
+            "imagen2": "./assets/proyects/law2.jpg",
+            "link": "https://jhonjpg.github.io/abogada/",
+            "bottom": "descripcion"
+
+        },
+        {
+            "proyectName": "The Kath Cafeteria",
+            "description": " Es un sitio web vibrante y apetitoso diseñado para un negocio de comida rápida que ofrece una variedad de sabrosas opciones para satisfacer los antojos de comida rápida. El sitio web capta la esencia de la comida rápida moderna al brindar a los visitantes una experiencia en línea atractiva y conveniente para explorar el menú, realizar pedidos y conocer más sobre el negocio.",
+            "categoria": "foods",
+            "imagen": "./assets/proyects/kathPage.jpg",
+            "imagen2": "./assets/proyects/kathPage2.jpg",
+            "link": "https://jhonjpg.github.io/theKathCafeteria/",
+            "bottom": "descripcion"
+
+        },
+        {
+            "proyectName": "Lift Gym",
+            "description": " un destino en línea diseñado para un gimnasio comprometido con la salud y el bienestar. El sitio web brinda a los entusiastas del fitness y a aquellos que buscan un estilo de vida activo la oportunidad de explorar las instalaciones, conocer los programas de entrenamiento y descubrir un espacio donde pueden enfocarse en alcanzar sus objetivos de acondicionamiento físico.            ",
+            "categoria": "media",
+            "imagen": "./assets/proyects/webgym.jpg",
+            "imagen2": "./assets/proyects/gym2.jpg",
+            "link": "https://jhonjpg.github.io/lyftgym/",
+            "bottom": "descripcion"
+
+        },
+        {
+
+            "proyectName": "Dra. Melina",
+            "description": " el sitio web de la Dra. Melina, una cirujana estética altamente experimentada y comprometida con resaltar la belleza natural de sus pacientes. Nuestro sitio es un espacio en línea donde los individuos pueden explorar una amplia gama de procedimientos estéticos diseñados para realzar la confianza y mejorar la autoestima.",
+            "categoria": "medical",
+            "imagen": "./assets/proyects/dramelina.jpg",
+            "imagen2": "./assets/proyects/dramelina2.jpg",
+            "link": "https://jhonjpg.github.io/DraMelina/",
+            "bottom": "descripcion"
+
+        },
+
+        {
+
+            "proyectName": "dreamHome",
+            "description": " el sitio web dreamHome de la Sra. Marelin Zick, una profesional inmobiliaria y experta en la gestión de documentos relacionados con la compra y venta de propiedades. Este sitio es tu puerta de entrada a un mundo de posibilidades para encontrar el hogar de tus sueños y garantizar una transacción sin complicaciones.",
+            "categoria": "laws",
+            "imagen": "./assets/proyects/dreamHome.jpg",
+            "imagen2": "./assets/proyects/dreamHome2.jpg",
+            "link": "https://jhonjpg.github.io/dreamHome/",
+            "bottom": "descripcion"
+
+        },
+
+        {
+
+            "proyectName": "barberShop",
+            "description": " El sitio web de la barbería líder en ofrecer cortes de cabello y servicios de cuidado personal de primera clase para hombres modernos. Aquí, la artesanía se une a la elegancia en un entorno que celebra la masculinidad y el estilo individual.            ",
+            "categoria": "beauty",
+            "imagen": "./assets/proyects/barber.jpg",
+            "imagen2": "./assets/proyects/barber2.jpg",
+            "link": "https://jhonjpg.github.io/BarberShop/",
+            "bottom": "descripcion"
+
+        }
+    ],
+
 
 
     "contactDiv": {

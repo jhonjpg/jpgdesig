@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Services from './components/Services';
 import About from './components/About';
 import Proyects from './components/Proyects';
+import Navbar from './components/Navbar';
 
 
 
@@ -58,8 +59,16 @@ const Home = () => {
   return (
     <>
 
+<main className="flex flex-col align-items justify-center w-full ">
 
-      <section className="flex  items-center justify-center flex-col-reverse w-screen h-screen gap-10  md:flex-row flex-col-reverse justify-center">
+<nav className="w-full fixed top-5 z-50	">
+
+<Navbar/>
+
+
+</nav>
+
+      <section id="home" className="flex  items-center justify-center flex-col-reverse w-screen h-screen gap-10  md:flex-row flex-col-reverse justify-center">
 
        
        
@@ -135,7 +144,7 @@ const Home = () => {
 
 
 
-      <section className="  bg-gray-900 w-full 	h-1-/12  p-4  flex flex-col   md:flex-col justify-center items-center  gap-5">
+      <section id="services" className="  bg-gray-900 w-full 	h-1-/12  p-4  flex flex-col   md:flex-col justify-center items-center  gap-5">
 
 <Services/>
 
@@ -145,19 +154,19 @@ const Home = () => {
 
 
 
-      <section className="  w-full 	h-1-/12  p-4  flex flex-col   md:flex-col justify-center items-center  gap-5">
+      <section id="about" className="  w-full 	h-1-/12  p-4  flex flex-col   md:flex-col justify-center items-center  gap-5">
 
 <About/>
 </section>
 
 
-<section className="  bg-gray-900 w-full 	h-1-/12  p-4  flex flex-col   md:flex-col justify-center items-center  gap-5">
+<section id="proyects" className="  bg-gray-900 w-full 	h-1-/12  p-4  flex flex-col   md:flex-col justify-center items-center  gap-5">
 
 <Proyects/>
 
 </section>
 
-<section className=" relative w-full  bg-blue-900 flex flex-col md:flex-col  gap-5">
+<section id="contact" className=" relative w-full  bg-blue-900 flex flex-col md:flex-col  gap-5">
 
 <div className="w-full	 p-2	 flex flex-col items-center bg-black md:w-10/12">
   <strong className="text-3xl text-blue-500 md:text-4xl w-3/5   w-72 text-center  border-solid pb-5		 ">{t('contactDiv.contactMe')}</strong>
@@ -196,11 +205,12 @@ const Home = () => {
   {({ inView, ref, entry }) => (
  <div ref={ref}   className={inView ? 'general wingleOp   right-20 w-72 shadow-lg  shadow-blue-500 gap-2 flex flex-col justify-center items-center bg-blue-800 h-72  md:absolute  w-1/4  right-32 top-30' : 'off'}>
 
- <p className="text-gray-300 w-full pl-5">  email: jonathan050315jj@gmail.com </p>
+ <p className="text-gray-300 w-full flex gap-1  pl-5"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512" id="IconChangeColor"><title>ionicons-v5-o</title><path d="M471.05,168.36,263.24,65.69a16.37,16.37,0,0,0-14.48,0L41,168.36a16,16,0,0,0-9,14.31V432a16.09,16.09,0,0,0,16.19,16H463.81A16.09,16.09,0,0,0,480,432V182.67A16,16,0,0,0,471.05,168.36ZM256,97.89l173,85.44L253.3,270.11l-173-85.44Z" id="mainIconPathAttribute" fill="#ffffff"></path></svg>: jonathan050315jj@gmail.com </p>
 
- <p className="text-gray-300 w-full pl-5">  tel:849-623-7873</p>
+ <p className="text-gray-300 flex gap-1 w-full pl-5">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/> </svg>: 849-623-7873</p>
 
- <p className="text-gray-300 w-full pl-5">  time:9:00 - 6:00</p>
+ <p className="text-gray-300 w-full flex gap-1  pl-5">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16"> <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/> </svg>
+: 9:00 AM - 6:00 PM</p>
 
 
  <div className="w-72 flex items-center justify-center  ">
@@ -235,6 +245,8 @@ const Home = () => {
 
 <footer></footer>
 
+
+</main>
 
     </>
   );
