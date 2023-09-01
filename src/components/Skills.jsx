@@ -69,7 +69,7 @@ const Skills = () => {
 
             ],
 
-            nombres: ["HTML", "CSS", "JAVASCRIPT", "BOOSTRAP", "TAILWIND", "NODE JS", "REACT JS", "GITHUB ", "MONGO DB", "JQUERY"],
+            nombres: ["JAVASCRIPT", "HTML", "CSS", "MONGO DB", "REACT JS ", " TAILWIND", "NODE JS", "GITHUB ", "BOOSTRAP", "JQUERY"],
 
 
 

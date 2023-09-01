@@ -55,11 +55,11 @@ const Services = () => {
 >
    {servicesList.map((service, index) => (
    
-         <li key={index}  className=" shadow-lg  shadow-blue-500 w-72  flex items-center justify-center bg-black p-3 h-72 text-white rounded-xl	 ">
+         <li key={index}  className=" shadow-lg  shadow-blue-500 w-72  flex items-center justify-center bg-black p-2 h-80 text-white rounded-xl	 ">
            <div className="flex flex-col items-center justify-center gap-3">
       
-             <h3 className="text-xl text-blue-300">{t(service.title)}</h3>
-             <p>{t(service.description)}</p>
+             <h3 className="text-xl text-center text-blue-300">{t(service.title)}</h3>
+             <p className="text-center w-full">{t(service.description)}</p>
             
            </div>
          </li>

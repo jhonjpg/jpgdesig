@@ -19,7 +19,7 @@ const Navbar = () => {
     const [linkColorPortafolio, setLinkColorPortafolio] = useState('white');
     const [linkColorContacto, setLinkColorContacto] = useState('white');
  
-    const [currentLanguage, setCurrentLanguage] = useState('es');
+    const [currentLanguage, setCurrentLanguage] = useState('en');
 
   
 
@@ -77,13 +77,13 @@ const buttonImageSpanish = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAA
             setLinkColorNosotros('white');
         }
     
-        if (scrollPosition > (isMobile ? 3300 : 2000) && scrollPosition <= (isMobile ? 6200 : 3178)) {
+        if (scrollPosition > (isMobile ? 3300 : 2000) && scrollPosition <= (isMobile ? 6600 : 3178)) {
             setLinkColorPortafolio('#3c82f6');
         } else {
             setLinkColorPortafolio('white');
         }
     
-        if (scrollPosition > (isMobile ? 6200 : 3178) && scrollPosition <= (isMobile ? 7200 : 3700)) {
+        if (scrollPosition > (isMobile ? 6600 : 3178) && scrollPosition <= (isMobile ? 7900 : 3700)) {
             setLinkColorContacto('#3c82f6');
         } else {
             setLinkColorContacto('white');
@@ -189,8 +189,13 @@ style={{ color: linkColorContacto }}
 
 
 
+<button className=" z-10" onClick={currentLanguage === 'es' ? changeToEnglish : changeToSpanish}>
+<h2 className="text-white flex justify-center items-center gap-3 overflow-hidden h-30"> <div className="w-8 h-8"><img src={buttonImage} className="w-full h-full object-contain" alt="flags"/> </div>
+  </h2>
+         </button>
 
    </ul>
+
 
 
      </nav>

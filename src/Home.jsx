@@ -98,11 +98,11 @@ const Home = () => {
 
 
         <h2 className="text-2xl text-start w-full text-blue-500">{t('webDeveloper')}</h2>
-          <h1 className="text-4xl text-gray-200">{t('jpgDev')} Jonathan<span className="text-blue-300 border-b-2	border-blue-300 border-solid pb-1"> Pena </span></h1>
+          <h1 className="text-4xl text-gray-200 mb-2">{t('jpgDev')} Jonathan<span className="text-blue-300 border-b-2	border-blue-300 border-solid  "> Peña </span></h1>
           <p className="w-full text-start mt-1 text-gray-200">{t('descripcion')}</p>
 
 
-          <button  className="w-20 bg-blue-300 text-gray-900 rounded-lg p-1" onClick={start}>{t('start')}</button>
+          <button  className="w-20 bg-blue-300 text-gray-900 rounded-lg p-1 hover:bg-blue-600 " onClick={start}>{t('start')}</button>
 
 
           <div className="w-72 flex items-center justify-center  ">
@@ -192,7 +192,7 @@ const Home = () => {
    
 
 
-   <input type="hidden" name="_next" value="https://jhonjpg.github.io/j-designer/" />
+   <input type="hidden" name="_next" value="https://jhonjpg.github.io/jpgdesig/" />
    <input type="hidden" name="_captcha" value="false" />
 
 
@@ -207,9 +207,9 @@ const Home = () => {
 
  <p className="text-gray-300 w-full flex gap-1  pl-5"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512" id="IconChangeColor"><title>ionicons-v5-o</title><path d="M471.05,168.36,263.24,65.69a16.37,16.37,0,0,0-14.48,0L41,168.36a16,16,0,0,0-9,14.31V432a16.09,16.09,0,0,0,16.19,16H463.81A16.09,16.09,0,0,0,480,432V182.67A16,16,0,0,0,471.05,168.36ZM256,97.89l173,85.44L253.3,270.11l-173-85.44Z" id="mainIconPathAttribute" fill="#ffffff"></path></svg>: jonathan050315jj@gmail.com </p>
 
- <p className="text-gray-300 flex gap-1 w-full pl-5">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/> </svg>: 849-623-7873</p>
+ <p className="text-gray-300 flex gap-1 w-full pl-5">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-telephone-fill" viewBox="0 0 16 16"> <path fillRule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/> </svg>: 849-623-7873</p>
 
- <p className="text-gray-300 w-full flex gap-1  pl-5">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16"> <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/> </svg>
+ <p className="text-gray-300 w-full flex gap-1  pl-5">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-alarm-fill" viewBox="0 0 16 16"> <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/> </svg>
 : 9:00 AM - 6:00 PM</p>
 
 

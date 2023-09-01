@@ -14,6 +14,16 @@
     --container-color: rgb(31, 30, 30);
     --gradiant-color: rgb(61, 61, 61);
     --gradiant2-color: rgb(80, 80, 80);
+    font-family: 'Arvo', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Dai Banna SIL', serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans Meroitic', sans-serif;
+    font-family: 'Noto Sans Old Sogdian', sans-serif;
+    font-family: 'Noto Sans Syriac Eastern', sans-serif;
 }
 
 .devices {
