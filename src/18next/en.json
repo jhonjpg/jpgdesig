@@ -150,6 +150,7 @@
     "contactDiv": {
         "contactMe": "CONTACT ME",
         "contactInfo": "contact",
+        "downloadCV": "Download CV",
         "name": "Name",
         "email": "Email",
         "phone": "Phone",

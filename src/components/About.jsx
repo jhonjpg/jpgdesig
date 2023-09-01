@@ -114,7 +114,7 @@ const About = () => {
 </div>
 
 
-<button className="w-32 bg-blue-700 text-gray-200 shadow-xl  shadow-blue-900 rounded-lg mt-10 p-2" onClick={handleDownloadCV}>{t('contactDiv.downloadCV')}</button>
+<button className="w-32 bg-blue-700 text-gray-200 shadow-xl  shadow-blue-900 rounded-lg mt-7 p-2 mb-5" onClick={handleDownloadCV}>{t('contactDiv.downloadCV')}</button>
 
 
 

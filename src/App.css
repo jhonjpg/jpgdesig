@@ -86,8 +86,17 @@
     .nav {
         display: none !important;
     }
+    .activated {
+        background-color: rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+    }
     .devices {
         display: flex !important;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
     }
     .show {
         visibility: visible;

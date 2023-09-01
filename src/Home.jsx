@@ -61,7 +61,7 @@ const Home = () => {
 
 <main className="flex flex-col align-items justify-center w-full ">
 
-<nav className="w-full fixed top-5 z-50	">
+<nav className="w-full fixed top-0 z-50	">
 
 <Navbar/>
 

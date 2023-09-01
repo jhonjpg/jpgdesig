@@ -49,6 +49,14 @@ const buttonImageSpanish = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAA
 
   
     const change = (e) => {
+
+      if (window.scrollY >= 600) {
+  
+        setmenuDos(false)
+      } else {
+        setmenuDos(true)
+      
+      }
         const isMobile = window.innerWidth <= 768; 
     
         if (window.scrollY >= (isMobile ? 400 : 200)) {
@@ -202,10 +210,10 @@ style={{ color: linkColorContacto }}
 
 
 
-<div className="devices w-full flex justify-end items-end">
+<div className={menuDos ? "devices  w-full flex justify-end items-center " : " activated  w-full flex justify-end items-end"}>
 
-    <ul className="w-3/4 flex justify-evenly ">
-    <li className="cursor-pointer "> < ScrollLink
+    <ul className="w-3/4 h-full flex justify-evenly ">
+    <li className="cursor-pointer flex items-center"> < ScrollLink
   to="home"
   smooth={true}
   duration={100}
@@ -216,7 +224,7 @@ style={{ color: linkColorContacto }}
   style={{ color: linkColorInicio }}
   > {t('home')}</ScrollLink></li>
                  
-         <li className="cursor-pointer"> < ScrollLink
+         <li className="cursor-pointer flex items-center"> < ScrollLink
   to="services"
   smooth={true}
   duration={100}
@@ -228,7 +236,7 @@ style={{ color: linkColorContacto }}
   >
        {t('servicesNv')}</ScrollLink></li>
          
-         <li className="cursor-pointer"> < ScrollLink
+         <li className="cursor-pointer flex items-center"> < ScrollLink
   to="about"
   smooth={true}
   duration={100}
@@ -240,7 +248,7 @@ style={{ color: linkColorContacto }}
   > {t('about')}</ScrollLink></li>
 
 
-         <li className="cursor-pointer"> < ScrollLink
+         <li className="cursor-pointer flex items-center"> < ScrollLink
   to="proyects"
   smooth={true}
   duration={100}
@@ -252,7 +260,7 @@ style={{ color: linkColorContacto }}
   > {t('portfolio')}  </ScrollLink></li>
          
          
-         <li className="cursor-pointer"> < ScrollLink
+         <li className="cursor-pointer flex items-center"> < ScrollLink
   to="contact"
   smooth={true}
   duration={100}
@@ -265,7 +273,7 @@ style={{ color: linkColorContacto }}
   >  {t('contact')}</ScrollLink></li>
 
 
-<button className=" " onClick={currentLanguage === 'es' ? changeToEnglish : changeToSpanish}>
+<button className=" h-full " onClick={currentLanguage === 'es' ? changeToEnglish : changeToSpanish}>
 <h2 className="text-white flex justify-center items-center gap-3 overflow-hidden h-30">{buttonText} <div className="w-8 h-8"><img src={buttonImage} className="w-full h-full object-contain" alt="flags"/> </div>
   </h2>
          </button>
