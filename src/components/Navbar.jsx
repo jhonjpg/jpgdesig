@@ -210,7 +210,10 @@ style={{ color: linkColorContacto }}
 
 
 
-<div className={menuDos ? "devices  w-full flex justify-end items-center " : " activated  w-full flex justify-end items-end"}>
+<div className={menuDos ? "devices  w-full flex justify-between items-center " : " activated  w-full flex justify-between items-end"}>
+
+
+<div className="w-28 h-full scale-125"> <img className="w-full h-full object-contain" src="img/logo.jpg" alt="" /></div>
 
     <ul className="w-3/4 h-full flex justify-evenly ">
     <li className="cursor-pointer flex items-center"> < ScrollLink
@@ -278,6 +281,8 @@ style={{ color: linkColorContacto }}
   </h2>
          </button>
        </ul>
+
+
    
 
 

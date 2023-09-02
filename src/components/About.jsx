@@ -10,13 +10,12 @@ const About = () => {
     const { t } = useTranslation(); // Obtenemos la función t() para traducir
 
 
-
     const [articulo, setarticulo] = useState(false)
 
 
     const handleDownloadCV = () => {
         // Reemplaza 'ruta_de_descarga_cv' con la URL de descarga de tu CV
-        const cvDownloadUrl = 'img/contact/JonathanPena_Resume.pdf';
+        const cvDownloadUrl = 'img/JonathanPena_Resume.pdf';
         window.open(cvDownloadUrl, '_blank');
       };
     

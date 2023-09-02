@@ -96,12 +96,14 @@
         justify-content: center;
         align-items: center;
         transition: 1s;
+        height: 60px;
     }
     .devices {
         display: flex !important;
         justify-content: center;
         align-items: center;
         transition: 1s;
+        height: 60px;
     }
     .show {
         visibility: visible;
