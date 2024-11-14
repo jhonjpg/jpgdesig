@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Skills from '../components/Skills';
 import { useTranslation } from 'react-i18next';
 import { InView } from 'react-intersection-observer';
+import { SparklesCore } from '../components/MySkills';
 
 
 
@@ -70,7 +71,7 @@ const About = () => {
 <hr className="w-20  bg-blue-500" />
 
 
-<div className=" w-full h-5/6	 flex flex-col  justify-center gap-5 items-center md:flex-row" >
+<div className="  w-full h-5/6	 flex flex-col-reverse  justify-center gap-5 items-start md:flex-row" >
 
 
     <InView triggerOnce="true" >
@@ -80,17 +81,30 @@ const About = () => {
 
 
 
-
-  <p className="text-xl w-fulltext-center text-white p-4">{t('aboutMe.description0')}</p>
+/* From Uiverse.io by SouravBandyopadhyay */ 
+ <div class="cardM">
+ <p className="text-xl w-fulltext-center text-white p-4">{t('aboutMe.description0')}</p>
   <p className="text-xl text-start text-white p-4">{t('aboutMe.description1')}</p>
+  <p className="text-xl text-start text-white p-4">{t('aboutMe.additionalDescription1')}</p>
+  <p className="text-xl text-start text-white p-4">{t('aboutMe.additionalDescription2')}</p>
+      <div class="go-corner">
+        <div class="go-arrow">→</div>
+      </div>
+    </div>
+    <button className="w-32 bg-blue-700 text-gray-200 shadow-xl shadow-blue-900 rounded-lg mt-7 p-2 mb-5 hover:scale-125 transition-transform duration-300 ease-in-out" onClick={handleDownloadCV}>
+  {t('contactDiv.downloadCV')}
+</button>
 
 
-<p className={hideClass}  >{t('aboutMe.additionalDescription1')}</p> 
+
+
+{/* <p className={hideClass}  >{t('aboutMe.additionalDescription1')}</p> 
 <p className={hideClass}  >{t('aboutMe.additionalDescription2')}</p>
+
 
 <button className="w-36 rounded-lg bg-blue-400 p-2" onClick={seeMore}>
       {articulo ? t('toggleButtonShowLess') : t('toggleButtonShowMore')}
-    </button>
+    </button> */}
 
 
 </div>
@@ -103,17 +117,44 @@ const About = () => {
 <InView triggerOnce="true" >
        {({ inView, ref, entry }) => (
 
-<div ref={ref} className={inView ? 'animadox w-full h-92 flex flex-col items-center gap-5 justify-around md:w-2/4' : 'off'}>
+<div ref={ref} className={inView ? 'animadox w-full h-92 flex flex-col items-center gap-5 justify-around md:w-2/4' : 'off opacity-0'}>
 
-
-<div className="cont shadow-blue-200	 shadow-xl   w-5/6 h-5/6	">
-
-
-<img  className="w-full h-full object-contain" src="img/me.jpg" alt=""  />
+<div className="shasha w-full h-96 backdrop-opacity-10 backdrop-invert bg-blue/30 p-4">
+  
+<div className="relative w-full h-full">
+  {/* Imagen inicial */}
+  <div className="absolute inset-0 w-full h-full bg-[url('../img/meC.jpg')] bg-center bg-cover grayscale transition-all duration-2000 ease-in-out hover:grayscale-0"></div>
+  
+  {/* Imagen que aparece en hover */}
+  <div className="absolute inset-0 w-full h-full bg-[url('../img/me.jpg')] bg-center bg-cover opacity-0 hover:opacity-100 transition-opacity duration-2000 ease-in-out"></div>
 </div>
 
 
-<button className="w-32 bg-blue-700 text-gray-200 shadow-xl  shadow-blue-900 rounded-lg mt-7 p-2 mb-5" onClick={handleDownloadCV}>{t('contactDiv.downloadCV')}</button>
+          </div>
+
+
+
+        
+
+
+
+
+<aside className="w-fullh-92  relative">
+
+<div className="w-screen h-screen absolute">
+
+<SparklesCore/>
+</div>
+<p className="logo-1 sp relative ">{t('services.skillsHeading')}</p>
+
+
+<div className="w-full">
+
+
+<Skills/>
+</div>
+</aside>
+
 
 
 
@@ -126,12 +167,6 @@ const About = () => {
 </div>
 
 
-<div className="caru w-full h-42 flex flex-col  ">
-
-<strong className="text-5xl w-full text-blue-500 w-72 text-center  		 ">{t('aboutMe.skillsHeading')} </strong>
-
-<Skills/>
-</div>
 
 </>
 )

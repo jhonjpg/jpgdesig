@@ -3,11 +3,14 @@
     "servicesNv": "Servicios",
     "portfolio": "Portafolio",
     "about": "Sobre mi",
+    "testimonialsNaV": "Testimonios",
     "contact": "Contacto",
     "webDeveloper": "DESARROLLADOR WEB",
     "jpgDev": "Hola, soy",
     "descripcion": "Encargado de crear y mantener sitios web con habilidades en programación y diseño, así como un conocimiento profundo de lenguajes y tecnologías relacionadas con el desarrollo web",
     "start": "INICIAR",
+    "testimonial": "Testimonios",
+    "testimonialDesc": "Lo que nuestros clientes dicen sobre trabajar con nosotros. Vea cómo hemos ayudado a dar vida a sus ideas con sitios web únicos y funcionales.",
     "toggleButtonShowMore": "Mas",
     "toggleButtonShowLess": "Menos",
     "aboutMe": {
@@ -69,7 +72,18 @@
             "description": "Nuestro equipo ofrece asesoramiento técnico y consultoría estratégica para mejorar la presencia en línea de nuestros clientes. Compartimos nuestras mejores prácticas, conocimientos sobre tecnologías emergentes y estrategias efectivas para optimizar la experiencia en línea.",
             "points": ["Diseño de Escritorio", "Diseño de Teléfono", "Diseño de Tablet"]
         }
+
     ],
+
+
+    "servicesimg": [{
+        "title": "Diseños Adicionales",
+        "others": {
+            "img": ["./designs/banners/banners.jpg", "./designs/logos/logos.jpg", "./designs/menu/menu1.jpg.", "./designs/publicidad/publicidad2.jpg"],
+            "names": ["BANNERS", "LOGOS", "MENU", "PUBLICIDAD"]
+        }
+    }],
+
 
     "proyects": {
         "proyect": "PROYECTOS",
@@ -87,81 +101,163 @@
     },
 
 
-    "proyect": [{
 
+    "proyect": [
+
+
+        {
+            "proyectName": "Produktivo",
+            "description": "Discover the epitome of elegance and sophistication at BeltranGold. Mt website showcases a curated collection of exquisite jewelry, blending timeless beauty with modern design. Explore the allure of fine craftsmanship and find the perfect piece to adorn yourself or your loved ones.",
+            "categoria": "media",
+            "imagen": "./assets/proyects/produktive.png",
+            "imagen2": "./assets/proyects/produktive2.png",
+            "link": "https://jhonjpg.github.io/produktivo/",
+            "bottom": "description",
+            "tecnologies": ["skills/html.jpg", "skills/csss.jpg", "skills/javascript.jpg", "skills/reactjs.jpg", "skills/tailwind.jpg"]
+        },
+
+        {
+            "proyectName": "BeltranGold",
+            "description": "Discover the epitome of elegance and sophistication at BeltranGold. Mt website showcases a curated collection of exquisite jewelry, blending timeless beauty with modern design. Explore the allure of fine craftsmanship and find the perfect piece to adorn yourself or your loved ones.",
+            "categoria": "jewelry",
+            "imagen": "./assets/proyects/jewelry.png",
+            "imagen2": "./assets/proyects/jewelry2.png",
+            "link": "https://beltrangold.com",
+            "bottom": "description",
+            "tecnologies": ["skills/html.jpg", "skills/csss.jpg", "skills/javascript.jpg", "skills/reactjs.jpg", "skills/tailwind.jpg"]
+        },
+
+
+
+
+
+        {
             "proyectName": "glamour",
-            "description": "Es un sitio web elegante y moderno que combina la belleza del mundo del maquillaje con la relajación y rejuvenecimiento de los tratamientos de spa. El sitio web fue diseñado y desarrollado para proporcionar a los visitantes una experiencia única y atractiva que refleje la esencia de los servicios ofrecidos por el spa y estudio de maquillaje. ",
+            "description": "It is an elegant and modern website that combines the beauty of the makeup world with the relaxation and rejuvenation of spa treatments. The website was designsed and developed to provide visitors with a unique and attractive experience that reflects the essence of the services offered by the spa and makeup studio.",
             "categoria": "beauty",
             "imagen": "./assets/proyects/glamour.jpg",
             "imagen2": "./assets/proyects/glamour2.jpg",
             "link": "https://jhonjpg.github.io/glamour/",
-            "bottom": "descripcion"
+            "bottom": "description",
+            "tecnologies": ["skills/html.jpg", "skills/csss.jpg", "skills/javascript.jpg", "skills/reactjs.jpg"]
 
         },
         {
             "proyectName": "Rosa Gutierrez Asoc",
-            "description": " Es un sitio web profesional y moderno diseñado para un bufete de abogados comprometido en brindar asesoría legal experta y soluciones legales a sus clientes. El sitio web refleja la seriedad y la confiabilidad del despacho, al tiempo que ofrece a los visitantes una plataforma accesible para conocer los servicios legales disponibles y establecer contacto con los abogados. ",
+            "description": "It is a professional and modern website designsed for a law firm committed to providing expert legal advice and solutions to its clients. The website reflects the seriousness and reliability of the firm while offering visitors an accessible platform to learn about available legal services and get in touch with the lawyers.",
             "categoria": "laws",
             "imagen": "./assets/proyects/law.jpg",
             "imagen2": "./assets/proyects/law2.jpg",
             "link": "https://jhonjpg.github.io/RosaGutierrezAsoc/",
-            "bottom": "descripcion"
+            "bottom": "description",
+            "tecnologies": ["skills/html.jpg", "skills/csss.jpg", "skills/javascript.jpg", "skills/reactjs.jpg", "skills/boostrap.jpg"]
 
         },
         {
             "proyectName": "The Kath Cafeteria",
-            "description": " Es un sitio web vibrante y apetitoso diseñado para un negocio de comida rápida que ofrece una variedad de sabrosas opciones para satisfacer los antojos de comida rápida. El sitio web capta la esencia de la comida rápida moderna al brindar a los visitantes una experiencia en línea atractiva y conveniente para explorar el menú, realizar pedidos y conocer más sobre el negocio.",
+            "description": "It is a vibrant and appetizing website designsed for a fast-food business that offers a variety of tasty options to satisfy fast-food cravings. The website captures the essence of modern fast food by providing visitors with an attractive and convenient online experience to explore the menu, place orders, and learn more about the business.",
             "categoria": "foods",
             "imagen": "./assets/proyects/kathPage.jpg",
             "imagen2": "./assets/proyects/kathPage2.jpg",
             "link": "https://jhonjpg.github.io/theKathCafeteria/",
-            "bottom": "descripcion"
+            "bottom": "description",
+            "tecnologies": ["skills/html.jpg", "skills/csss.jpg", "skills/javascript.jpg", "skills/reactjs.jpg"]
 
         },
         {
             "proyectName": "Lift Gym",
-            "description": " un destino en línea diseñado para un gimnasio comprometido con la salud y el bienestar. El sitio web brinda a los entusiastas del fitness y a aquellos que buscan un estilo de vida activo la oportunidad de explorar las instalaciones, conocer los programas de entrenamiento y descubrir un espacio donde pueden enfocarse en alcanzar sus objetivos de acondicionamiento físico.            ",
+            "description": "An online destination designsed for a gym committed to health and wellness. The website provides fitness enthusiasts and those seeking an active lifestyle with the opportunity to explore facilities, learn about training programs, and discover a space where they can focus on achieving their fitness goals.",
             "categoria": "media",
             "imagen": "./assets/proyects/webgym.jpg",
             "imagen2": "./assets/proyects/gym2.jpg",
             "link": "https://jhonjpg.github.io/lyftgym/",
-            "bottom": "descripcion"
+            "bottom": "description",
+            "tecnologies": ["skills/html.jpg", "skills/csss.jpg", "skills/javascript.jpg", "skills/reactjs.jpg"]
 
         },
         {
-
             "proyectName": "Dra. Melina",
-            "description": " el sitio web de la Dra. Melina, una cirujana estética altamente experimentada y comprometida con resaltar la belleza natural de sus pacientes. Nuestro sitio es un espacio en línea donde los individuos pueden explorar una amplia gama de procedimientos estéticos diseñados para realzar la confianza y mejorar la autoestima.",
+            "description": "The website of Dr. Melina, a highly experienced aesthetic surgeon committed to enhancing the natural beauty of her patients. My site is an online space where individuals can explore a wide range of aesthetic procedures designsed to boost confidence and improve self-esteem.",
             "categoria": "medical",
             "imagen": "./assets/proyects/dramelina.jpg",
             "imagen2": "./assets/proyects/dramelina2.jpg",
             "link": "https://jhonjpg.github.io/DraMelina/",
-            "bottom": "descripcion"
+            "bottom": "description",
+            "tecnologies": ["skills/html.jpg", "skills/csss.jpg", "skills/javascript.jpg", "skills/reactjs.jpg"]
 
         },
-
         {
-
             "proyectName": "dreamHome",
-            "description": " el sitio web dreamHome de la Sra. Marelin Zick, una profesional inmobiliaria y experta en la gestión de documentos relacionados con la compra y venta de propiedades. Este sitio es tu puerta de entrada a un mundo de posibilidades para encontrar el hogar de tus sueños y garantizar una transacción sin complicaciones.",
+            "description": "The dreamHome website of Mrs. Marelin Zick, a real estate professional and expert in managing documents related to property buying and selling. This site is your gateway to a world of possibilities for finding your dream home and ensuring a seamless transaction.",
             "categoria": "laws",
             "imagen": "./assets/proyects/dreamHome.jpg",
             "imagen2": "./assets/proyects/dreamHome2.jpg",
             "link": "https://jhonjpg.github.io/dreamHome/",
-            "bottom": "descripcion"
+            "bottom": "description",
+            "tecnologies": ["skills/html.jpg", "skills/csss.jpg", "skills/javascript.jpg", "skills/reactjs.jpg"]
 
         },
-
         {
-
             "proyectName": "barberShop",
-            "description": " El sitio web de la barbería líder en ofrecer cortes de cabello y servicios de cuidado personal de primera clase para hombres modernos. Aquí, la artesanía se une a la elegancia en un entorno que celebra la masculinidad y el estilo individual.            ",
+            "description": "The website of the leading barbershop offering top-notch haircuts and personal grooming services for modern men. Here, craftsmanship meets elegance in an environment that celebrates masculinity and individual style.",
             "categoria": "beauty",
             "imagen": "./assets/proyects/barber.jpg",
             "imagen2": "./assets/proyects/barber2.jpg",
             "link": "https://jhonjpg.github.io/BarberShop/",
-            "bottom": "descripcion"
+            "bottom": "description",
+            "tecnologies": ["skills/html.jpg", "skills/csss.jpg", "skills/javascript.jpg"]
 
+        }
+    ],
+
+
+    "graphicDesign": [{
+            "proyectName": "logo",
+            "design": ["./designs/logos/logos.jpg", "./designs/logos/logos1.mp4", "./designs/logos/logos3.mp4", "./designs/logos/logos4.mp4", "./designs/logos/logos5.mp4", "./designs/logos/logos6.mp4", "./designs/logos/logos7.mp4", "./designs/logos/logos8.mp4", "./designs/logos/logos9.mp4", "./designs/logos/logos10.jpg"]
+        },
+        {
+            "proyectName": "banners",
+            "design": ["./designs/banners/banners.jpg", "/designs/banners/banners1.mp4", "/designs/banners/banners2.mp4", "/designs/banners/banners3.mp4", "/designs/banners/banners4.mp4", "/designs/banners/banners5.mp4", "/designs/banners/banners6.mp4"]
+        },
+        {
+            "proyectName": "menu",
+            "design": ["./designs/menu/menu1.jpg", "./designs/menu/menu2.jpg", "./designs/menu/menu3.jpg", "./designs/menu/menu4.jpg", "./designs/menu/menu5.jpg"]
+        },
+        {
+            "proyectName": "publicidad",
+            "design": ["./designs/publicidad/publicidad1.jpg", "./designs/publicidad/publicidad2.jpg", "./designs/publicidad/publicidad3.jpg", "./designs/publicidad/publicidad4.jpg"]
+        }
+
+    ],
+
+
+    "testimonials": [{
+            "name": "Santiago Martínez",
+            "message": "Jhon Design es un desarrollador increíblemente talentoso. Nos ayudó a transformar nuestra visión en un sitio web funcional y hermoso. Su atención al detalle y la habilidad para resolver problemas rápidamente nos impresionaron. No puedo recomendarlo lo suficiente.",
+            "image": "https://images.pexels.com/photos/28560709/pexels-photo-28560709/free-photo-of-man-in-traditional-clothing-on-sunny-day.jpeg?auto=compress&cs=tinysrgb&w=800"
+        },
+        {
+            "name": "Andrea López ",
+            "message": "Trabajar con Jhon Design fue una experiencia excelente. Entendió perfectamente lo que nuestra empresa necesitaba y creó un sitio web que superó nuestras expectativas. Siempre estuvo disponible para ajustar detalles y mejorar la experiencia del usuario.",
+            "image": "https://images.pexels.com/photos/28570314/pexels-photo-28570314/free-photo-of-confident-young-woman-in-glasses-portrait.jpeg?auto=compress&cs=tinysrgb&w=800"
+        },
+
+        {
+            "name": "Carlos Ramírez",
+            "message": "Jhon Design tiene una gran capacidad para entender el negocio detrás del sitio web. No solo creó una página visualmente atractiva, sino que también optimizó todo para garantizar que el tráfico y la conversión mejoraran. Un gran profesional.",
+            "image": "https://images.pexels.com/photos/28571177/pexels-photo-28571177/free-photo-of-young-man-jumping-with-joy-outdoors.jpeg?auto=compress&cs=tinysrgb&w=800"
+        },
+
+        {
+            "name": "Marcela Gómez ",
+            "message": "Jhon Design demostró ser un experto en desarrollo web. Desde el primer día, nos ofreció soluciones innovadoras y creativas. El resultado fue un sitio rápido, moderno y fácil de navegar. Definitivamente lo volveré a contratar",
+            "image": "https://images.pexels.com/photos/28582416/pexels-photo-28582416/free-photo-of-smiling-woman-with-braided-hair-at-night.jpeg?auto=compress&cs=tinysrgb&w=800"
+        },
+
+        {
+            "name": "Luis Hernández        ",
+            "message": "Lo que más me gustó de trabajar con Jhon Design fue su pasión y compromiso con el proyecto. No se conforma con lo básico; siempre busca mejorar y ofrecer lo mejor. Nuestra página ahora luce profesional y funcional, todo gracias a él.",
+            "image": "https://images.pexels.com/photos/28578761/pexels-photo-28578761/free-photo-of-dramatic-black-and-white-male-portrait.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
     ],
 

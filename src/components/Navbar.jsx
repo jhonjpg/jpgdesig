@@ -18,6 +18,7 @@ const Navbar = () => {
     const [linkColorNosotros, setLinkColorNosotros] = useState('white');
     const [linkColorPortafolio, setLinkColorPortafolio] = useState('white');
     const [linkColorContacto, setLinkColorContacto] = useState('white');
+    const [linkColorTestimonials, setLinkColorTestimonials] = useState('white');
  
     const [currentLanguage, setCurrentLanguage] = useState('en');
 
@@ -73,29 +74,39 @@ const buttonImageSpanish = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAA
             setLinkColorInicio('white');
         }
     
-        if (scrollPosition > (isMobile ? 200 : 530) && scrollPosition <= (isMobile ? 2000 : 1325)) {
+        if (scrollPosition > (isMobile ? 200 : 530) && scrollPosition <= (isMobile ? 2000 : 1525)) {
             setLinkColorServices('#3c82f6');
         } else {
             setLinkColorServices('white');
         }
     
-        if (scrollPosition > (isMobile ? 2000 : 1325) && scrollPosition <= (isMobile ? 3300 : 2000)) {
+        if (scrollPosition > (isMobile ? 2000 : 1525) && scrollPosition <= (isMobile ? 3300 : 2600)) {
             setLinkColorNosotros('#3c82f6');
         } else {
             setLinkColorNosotros('white');
         }
     
-        if (scrollPosition > (isMobile ? 3300 : 2000) && scrollPosition <= (isMobile ? 6600 : 3178)) {
+        if (scrollPosition > (isMobile ? 3300 : 2600) && scrollPosition <= (isMobile ? 6600 : 4478)) {
             setLinkColorPortafolio('#3c82f6');
         } else {
             setLinkColorPortafolio('white');
         }
+
+
+        if (scrollPosition > (isMobile ? 6600 : 4478) && scrollPosition <= (isMobile ? 7900 : 5178)) {
+          setLinkColorTestimonials('#3c82f6');
+      } else {
+        setLinkColorTestimonials('white');
+      }
     
-        if (scrollPosition > (isMobile ? 6600 : 3178) && scrollPosition <= (isMobile ? 7900 : 3700)) {
+        if (scrollPosition > (isMobile ? 7600 : 5178) && scrollPosition <= (isMobile ? 7900 : 6178)) {
             setLinkColorContacto('#3c82f6');
         } else {
             setLinkColorContacto('white');
         }
+
+
+
     }
     
     window.addEventListener('scroll', change);
@@ -213,7 +224,7 @@ style={{ color: linkColorContacto }}
 <div className={menuDos ? "devices  w-full flex justify-between items-center " : " activated  w-full flex justify-between items-end"}>
 
 
-<div className="w-28 h-full scale-125"> <img className="w-full h-full object-contain" src="img/logo.jpg" alt="" /></div>
+<div className="w-28 h-full scale-100"> <img className="w-full h-full object-contain" src="img/jd.png" alt="" /></div>
 
     <ul className="w-3/4 h-full flex justify-evenly ">
     <li className="cursor-pointer flex items-center"> < ScrollLink
@@ -262,6 +273,20 @@ style={{ color: linkColorContacto }}
   style={{ color: linkColorPortafolio}}
   > {t('portfolio')}  </ScrollLink></li>
          
+
+         <li className="cursor-pointer flex items-center"> < ScrollLink
+  to="testimonials"
+  smooth={true}
+  duration={100}
+  offset={-70} // Ajusta el valor según el tamaño de tu Navbar
+  spy={true}
+  exact="true"
+  className="cursor-pointer"
+  style={{ color: linkColorTestimonials }}
+  
+  >  {t('testimonialsNaV')}</ScrollLink></li>
+
+
          
          <li className="cursor-pointer flex items-center"> < ScrollLink
   to="contact"

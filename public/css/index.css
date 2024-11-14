@@ -23,7 +23,6 @@ hr {
     /* Alinea verticalmente */
     /* transition: right 0.5s ease; */
     /* Transición de movimiento */
-    background-image: url("../public/img/meNew.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

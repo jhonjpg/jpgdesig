@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
@@ -54,32 +54,26 @@ const Skills = () => {
         {
 
             fotos: [
-                "skills/javascript.jpg",
-                "skills/html.jpg",
-                "skills/csss.jpg",
-                "skills/mongodb.jpg",
-                "skills/reactjs.jpg",
-                "skills/tailwind.jpg",
-                "skills/nodejs.jpg",
-                "skills/github.jpg",
-                "skills/boostrap.jpg",
-                "skills/jquery.jpg"
+                "skills/javascript.png",
+                "skills/html.png",
+                "skills/css.png",
+                "skills/mongodb.png",
+                "skills/reactjs.png",
+                "skills/tailwind.png",
+                "skills/nodejs.png",
+                "skills/github.png",
+                "skills/boostrap.png",
+                "skills/jquerty.png",
+                "skills/canva.png"
+
 
 
 
             ],
 
-            nombres: ["JAVASCRIPT", "HTML", "CSS", "MONGO DB", "REACT JS ", " TAILWIND", "NODE JS", "GITHUB ", "BOOSTRAP", "JQUERY"],
-
-
-
-
-
+            nombres: ["JAVASCRIPT", "HTML", "CSS", "MONGO DB", "REACT JS ", " TAILWIND", "NODE JS", "GITHUB ", "BOOSTRAP", "JQUERY", "Canva"],
 
         }
-
-
-
 
     ]
 
@@ -90,28 +84,33 @@ const Skills = () => {
         <>
 
 
-       
 
 
 
-                <Slider {...settings}>
-               
-                    {immg[0].fotos.map((imageUrl, index) => (
-                      
-                      
-                      <li key={index} className="carousel scale-50 bg-red-200 h-full  gap-5 flex flex-col items-center">
+            <section className=" flex w-full justify-center item-center flex-wrap">
+                {/* <strong className="text-5xl w-full text-blue-500 w-72 text-center  		 ">{t('aboutMe.skillsHeading')} </strong> */}
 
-                            <div className="w-full h-32">
-                                    <img className="object-cover object-center	" src={imageUrl} alt="ftt" />
-                                </div> 
-
-                                    <p className="text-2xl text-white text-center mt-4">{immg[0].nombres[index]}</p>
-                        </li>
+                {immg[0].fotos.map((imageUrl, index) => (
 
 
-                    ))}
-                </Slider>
+                    <li key={index} className="w-90 scale-50 h-full  gap-5 flex flex-col justify-evenly  items-center">
 
+                        <div className=" w-28 h-32">
+                            <img className="w-full h-full object-cover object-center	" src={`./${imageUrl}`}
+                                alt="ftt" />
+                        </div>
+
+                        <p className="text-2xl text-white text-center mt-4">{immg[0].nombres[index]}</p>
+                    </li>
+
+
+                ))}
+
+
+
+
+
+            </section>
 
 
         </>

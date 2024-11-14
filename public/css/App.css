@@ -34,6 +34,13 @@
     display: none !important;
 }
 
+.active {
+    color: rgb(13, 2, 173);
+    /* Cambia el color a rojo */
+    font-weight: bold;
+    /* Otra modificación opcional para resaltar más */
+}
+
 .nav {
     position: fixed;
     bottom: 0px;
